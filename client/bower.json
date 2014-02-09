@@ -1,0 +1,25 @@
+{
+  "name": "baseApp",
+  "version": "0.1.0",
+  "authors": [
+    "Joel Sannerstedt <joel.sannerstedt@gmail.com>"
+  ],
+  "description": "skeleton application",
+  "main": "app/app.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "~3.0.0",
+    "requirejs": "~2.1.10",
+    "knockout-amd-helpers": "~0.6.1",
+    "knockout-postbox": "~0.4.2",
+    "requirejs-text": "~2.0.10"
+  }
+}
