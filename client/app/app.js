@@ -21,7 +21,7 @@ require([
     "knockout-postbox",
     "knockout-amd-helpers",
     "text"
-], function (ko, shell, postbox, amdHelpers, text) {
+], function (ko, shell/*, postbox, amdHelpers, text*/) {
 
     // config
     ko.amdTemplateEngine.defaultPath = "./";
